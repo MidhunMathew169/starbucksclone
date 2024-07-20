@@ -1,0 +1,73 @@
+body{
+    height: 100%;
+    font-family:Helvetica, sans-serif;
+    position: unset;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+} 
+header{
+    width: 100%;
+    height: 80px;
+}  
+.nav-container{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+}
+.inner-nav{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.nav-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.nav-content p:hover{
+    color: #00754a;
+}
+.inner-nav1{
+    width: 50%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.searchbar{
+    width:auto;
+    height:40px;
+    display: flex;
+}
+.searchicon{
+    width: 40px;
+    height:40px;
+    color: black;
+}
+.search-input{
+    width: 222px;
+    height: 40px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+.user-icon{
+    width: 40px;
+    height: 40px;
+}
+.starbucks{
+    width: 100%;
+    height: 80px;
+    background-color: #00754a;
+}
+

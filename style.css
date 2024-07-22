@@ -16,6 +16,7 @@ header{
     background-color: #fff;
     position: fixed;
     display: flex;
+    z-index: 1;
 }
 .inner-nav{
     width: 50%;
@@ -28,6 +29,7 @@ header{
 .logo{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 .nav-content{
     width: 50%;
@@ -37,6 +39,7 @@ header{
 }
 .nav-content p:hover{
     color: #00754a;
+    cursor: pointer;
 }
 .inner-nav1{
     width: 50%;
@@ -46,28 +49,394 @@ header{
     justify-content: space-evenly;
 }
 .searchbar{
-    width:auto;
-    height:40px;
-    display: flex;
-}
-.searchicon{
-    width: 40px;
-    height:40px;
-    color: black;
-}
-.search-input{
-    width: 222px;
+    width: 244px;
     height: 40px;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    border-radius: 39px;
+    box-shadow:0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+}
+.searchbar span{
+    font-size: small;
+    color: #b3b3b3;
+}
+.searchbar i{
+    color: #b3b3b3;
 }
 .user-icon{
     width: 40px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 .starbucks{
     width: 100%;
     height: 80px;
-    background-color: #00754a;
+    background-color: #1e3932;
+    display: flex;
+    justify-content: center;
 }
+.brand{
+    width:80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.brand h3{
+    color: #fff;
+    font-weight: lighter;
+}
+.brand button{
+height: 30px;
+width: 95px;
+background-color: #1e3932;
+color: #fff;
+border: 1px solid #fff;
+border-radius: 19px;
+font-weight: bold;
+}
+.box1{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+.updates{
+    width: 1230px;
+    height: 233px;
+    margin-top: 25px;
+    background-color: #7fffd45c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.logo1{
+    width: 80px;
+    height: 160px;
+}
+.message{
+    flex-grow: 2;
+    margin-left: 42px;
+    margin-bottom: 69px;
+}
+.message p{
+    font-size: small;
+    color: #092e22fa;
+}
+.knowmore{
+    position: relative;
+}
+.right-end{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.right-end button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00754a;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-small;
+}
+.box2{
+    margin-top: 20px;
+}
+.curation{
+    width: 1230px;
+    height: 233px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.curation h3{
+    color: #1e3932;
+    font-size: larger;
+    font-weight: bolder;
+}
+.beverages{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width: 110px;
+    height: 108px;
+    align-content: center;
+}
+.drinks{
+    width: 108px;
+    height: 108px;
+    object-fit: cover;
+    border: 1px solid #edebe9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.items p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1e3932;
 
+}
+.box3{
+    width: 100%;
+    height: 312px;
+    background-color: #edebe9;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.recommendations{
+    width: 1230px;
+    height: 250px;
+    background-color:transparent;
+}
+.top{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.top1{
+    width: 50%;
+}
+.top2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.top2 h6{
+    font-size: small;
+    color: #00754a;
+}
+.menu{
+    width: 100%;
+    height: 160px;
+    color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pricing{
+    width: 395px;
+    height: 159px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.block1{
+    width: 370px;
+    height: 140px;
+    background-color:transparent;
+}
+.firstbox{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.boximg{
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+.first-content h3{
+    font-size: 14px; 
+    margin-bottom: 0;
+    margin-top: 0;
+    color: black;
+}
+.veg-logo{
+    width: 16px;
+    height: 16px;
+}
+.secondbox{
+    width: 100%;
+    height: 45px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondbox button{
+    width:96px;
+    height: 32px;
+    background-color: #00754a;
+    border-radius: 22px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    border: none;
+}
+.box4{
+    width: 100%;
+    height: 500px;
+    background-color: #edebe9;
+    display: flex;
+    justify-content: center;
+}
+.discover{
+    width: 1230px;
+    height: 370px;
+    background-color:transparent;
+}
+.content-main{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card-img{
+    width: 1230px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 8px;
+    position: absolute;
+}
+.content-first{
+    width: 1200px;
+    height: 330px;
+    position: relative;
+    padding: 1em;
+    padding-left: 20px;
+
+}
+.content-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.content-top p{
+    width: auto;
+    height: 17px;
+    font-size: 9px;
+    font-weight: bold;
+    background-color: #edebe9;
+    align-content: center;
+    color: #00754a;
+    border-radius: 4px;
+}
+.content-bottom{
+    position: relative;
+    top: 52%;
+    color: #fff;
+}
+.content-bottom button{
+    width: 200px;
+    height: 34px;
+    font-weight: bolder;
+    border-radius: 23px;
+    border: none;
+}
+footer{
+    background-color: #1e3932;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-content{
+    width: 90%;
+    height: 80%;
+}
+.footer-content-top{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    margin-bottom: 42px;
+}
+.footer-image1{
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+}
+.col-1{
+    max-width: 185px;
+}
+.col-1 h3{
+    color: #fff;
+    cursor: pointer;
+}
+.col-1 ul{
+    padding-left: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    cursor: pointer;
+}
+.col-1 a{
+    font-weight: 400;
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #fff;
+}
+.col-1 a:hover{
+    color: #bbb;
+    transition: 0.3s;
+}
+.socmedia{
+    display: flex;
+    justify-content: space-between;
+}
+.sm1 i{
+    color: #fff;
+}
+.col-2{
+    max-width: 200px;
+    margin-top: 20px;
+}
+.footer-content-bottom ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #a0a0a0;
+    padding-top: 20px;
+    padding-left: 0;
+}
+.footer-content-bottom li{
+    font-size: 0.75em;
+    white-space: nowrap;
+    padding-right: 17px;
+    border-right: 1px solid #b3b3b3;
+    margin: 0.125rem 0.625rem;
+}
+.footer-content-bottom a{
+    text-decoration: none;
+    color: #fff;
+}
+#contact{
+    border-right: none;
+    flex-grow: 1;
+}
+#copyright{
+    border-right: none;
+    font-size: 0.6em;
+    text-align: right;
+    margin-right: 0;
+    padding-right:0;
+}
